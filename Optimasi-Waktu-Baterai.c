@@ -57,7 +57,7 @@ int main() {
         t_next = t - (f / f_prime);
         iter++;
 
-        printf("%d\t %.6f\t %.6f\n", iter, t_next, fungsi(t_next));  // Pindahkan cetak ke sini
+        printf("%d\t %.6f\t %.6f\n", iter, t_next, fungsi(t_next));  
 
         if (fabsf(fungsi(t_next)) < EPSILON) {
             break;
